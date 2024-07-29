@@ -2,7 +2,11 @@
 /*
  * **
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
+ *  ** █ ░FRAMEWORK                                  2024-07-24 10:23:43
+=======
  *  ** █ ░FRAMEWORK                                  2024-07-24 23:19:27
+>>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
  *  ** █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Account\Views\Processes\Creator\deny.php]
  *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  *  ** █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
