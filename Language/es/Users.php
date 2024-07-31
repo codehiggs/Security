@@ -6,7 +6,7 @@ return [
     "importer-title" => "Importador de usuarios",
     "importer-label_attachment" => "Archivo a adjuntar",
     "importer-label_offset" => "Compensación",
-    "importer-help_offset" => "Número de filas a omitir 2 próximo 102",
+    "importer-help_offset" => "Número de filas a omitir: 2, próximo: 102",
     "importer-label_limit" => "Límite",
     "importer-help_limit" => "Número de filas a procesar",
     "importer-success-title" => "¡Importación exitosa!",
@@ -21,7 +21,7 @@ return [
     "label_address" => "Dirección de residencia",
     "label_email" => "Correo Electrónico",
     "label_phone" => "Teléfono",
-    "label_birthday" => "Fecha de Nacimiento (Cumpleaños)",
+    "label_birthday" => "Fecha de nacimiento (Cumpleaños)",
     "label_sex" => "Sexo",
     "label_citizenshipcard" => "Cédula",
     "label_expedition_date" => "Fecha de expedición ",
@@ -108,11 +108,7 @@ return [
 
     "help_expedition_date" => "Fecha de expedición de la cédula",
     "label_notes" => "Notas",
-<<<<<<< HEAD
-    "edit-denied-message" => "Su rol en la plataforma <b>no posee los privilegios necesarios para acceder a este componente</b>. Para hacer uso del mismo, al menos uno de sus roles en la plataforma deberá disponer del permiso <code>SECURITY-EDIT</code> o <code>SECURITY-EDIT-ALL</code>. Solo un administrador del sistema podrá concederle tal nivel de acceso. Por favor, contacte al soporte técnico para solicitar que a su rol le sean asignados los privilegios requeridos, si es el caso, o presione continuar para retornar al listado de usuarios. ",
-=======
-    "edit-denied-message" => "Su rol en la plataforma <b>no posee los privilegios necesarios para acceder a este componente</b>. Para utilizarlo, al menos uno de sus roles en la plataforma debe disponer del permiso <code>SECURITY-EDIT</code> o <code>SECURITY-EDIT-ALL</code>. Solo un administrador del sistema podrá concederle tal nivel de acceso. Por favor, contacte al soporte técnico para solicitar que se asignen los privilegios requeridos a su rol, si es el caso, o presione continuar para regresar al listado de usuarios. ",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
+    "edit-denied-message" => "Su rol en la plataforma no posee los privilegios necesarios para acceder a este componente. Para hacer uso del mismo, al menos uno de sus roles en la plataforma deberá disponer del permiso SECURITY-EDIT o SECURITY-EDIT-ALL. Solo un administrador del sistema podrá concederle tal nivel de acceso. Por favor, contacte al soporte técnico para solicitar que a su rol le sean asignados los privilegios requeridos, si es el caso, o presione continuar para retornar al listado de usuarios. ",
     "help_citizenshipcard" => "Número del documento de identificación (Obligatorio)",
     "help_phone" => "Número telefónico incluyendo prefijo de nacionalidad (Obligatorio)",
     "help_expedition_place" => "Generalmente el nombre textual de una ciudad (Obligatorio)",
@@ -120,7 +116,7 @@ return [
     "help_birthday" => "Fecha valida (Requerido)",
     "help_alias" => "Alias o sobrenombre de usuario",
     "help_password" => "Contraseña de acceso",
-    "help_confirm" => "Confirmacion de la contraseña de acceso",
+    "help_confirm" => "Confirmación de la contraseña de acceso",
     "help_firstname" => "Nombres del usuario (Obligatorio)",
     "help_lastname" => "Apellidos del usuario (Obligatorio)",
     "help_address" => "Dirección de residencia del usuario (Obligatorio)",
@@ -136,9 +132,9 @@ return [
     "help_disability_level" => "Nivel de discapacidad del usuario",
     "help_exceptional_ability" => "Habilidad excepcional del usuario",
     "help_urban_area" => "Área urbana de residencia del usuario",
-    "help_received_financial_aid" => "Recibió ayuda financiera",
-    "help_received_academic_assistance" => "Recibió asistencia académica",
-    "help_received_other_assistance" => "Recibió otra asistencia",
+    "help_received_financial_aid" => "Recibió ayuda financiera el usuario",
+    "help_received_academic_assistance" => "Recibió asistencia académica el usuario",
+    "help_received_other_assistance" => "Recibió otra asistencia el usuario",
     "help_school" => "Institución educativa del usuario",
     "help_SABER_11_test_code" => "Código de la prueba SABER 11",
     "help_test_date" => "Fecha de la prueba SABER 11",
@@ -300,41 +296,23 @@ return [
     "profile-photo" => "Foto de perfil",
     //[list]------------------------------------------------------------------------------------------------------------
     "list-title" => "Listado de usuarios",
-    "list-info" => "Un usuario se define como una entidad identificable, que puede ser una persona, un sistema automatizado o incluso un bot, que se relaciona con un sistema o plataforma a través de una identidad validada y autenticada. Esta identidad, comúnmente referida como <b>cuenta de usuario</b>, está protegida por elementos de seguridad denominados credenciales, que suelen consistir en un identificador de usuario y una contraseña.",
+    "list-info" => "Un usuario se define como una entidad identificable, que puede ser una persona, un sistema automatizado o incluso un bot, que interactúa con un sistema o plataforma a través de una identidad validada y autenticada. Esta identidad, comúnmente referida como cuenta de usuario, está protegida por elementos de seguridad denominados credenciales, que generalmente consisten en un identificador de usuario y una contraseña.",
     // Users Editor
     "edit-errors-title" => "Datos incorrectos o faltantes",
-<<<<<<< HEAD
-    "edit-errors-message" => "No fue posible actualizar la información del usuario seleccionado debido a que los datos proporcionados son incorrectos o faltan datos requeridos para realizar este procedimiento. Por favor, verifique e inténtelo nuevamente. ",
-    "edit-success-title" => "Actualización Exitosa!",
-    "edit-success-message" => "Los datos del perfil del usuario <b>%s</b> se actualizaron exitosamente. Para continuar, seleccione la opción que corresponda en la parte inferior de este mensaje. ",
-=======
-    "edit-errors-message" => "No fue posible actualizar la información del usuario seleccionado debido a que los datos proporcionados son incorrectos o faltan datos necesarios para realizar este procedimiento. Por favor, verifique e inténtelo nuevamente. ",
-    "edit-success-title" => "¡Actualización exitosa!",
+    "edit-errors-message" => "No fue posible actualizar la información del usuario seleccionado debido a que los datos proporcionados son incorrectos o faltan datos requeridos para realizar este procedimiento. Por favor, verifique y vuelva a intentarlo. ",
+    "edit-success-title" => "¡Actualización Exitosa!",
     "edit-success-message" => "Los datos del perfil del usuario <b>%s</b> se actualizaron exitosamente. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje. ",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
     // Users Create
     "create-title" => "Crear nuevo usuario",
     "create-errors-title" => "Advertencia",
-<<<<<<< HEAD
     "create-errors-message" => "No fue posible crear el nuevo usuario debido a que los datos proporcionados son incorrectos o faltan datos requeridos para realizar este procedimiento. Por favor, verifique e inténtelo nuevamente. ",
-=======
-    "create-errors-message" => "No fue posible crear el nuevo usuario debido a que los datos proporcionados son incorrectos o faltan datos necesarios para realizar este procedimiento. Por favor, verifique e inténtelo nuevamente. ",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
-    "create-success-title" => "Usuario creado exitosamente!",
-<<<<<<< HEAD
-    "create-success-message" => "El usuario <b>%s</b> se creó exitosamente. Para continuar, seleccione la opción que corresponda en la parte inferior de este mensaje. ",
-=======
+    "create-success-title" => "¡Usuario creado exitosamente!",
     "create-success-message" => "El usuario <b>%s</b> se creó exitosamente. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje. ",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
     // Users Delete
     "delete-title" => "Eliminar Usuario: %s",
-<<<<<<< HEAD
-    "delete-message" => "Confirmación: ¿Realmente desea eliminar el usuario seleccionado <b>%s</b>? Para confirmar, presione eliminar. Para retornar al listado general de usuarios activos, presione cancelar",
-=======
-    "delete-message" => "Confirmación: ¿Realmente desea eliminar al usuario seleccionado <b>%s</b>? Para confirmar, presion eliminar. Para regresar al listado general de usuarios activos, presione cancelar. ?",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
+    "delete-message" => "Confirmación: ¿Realmente desea eliminar al usuario seleccionado <b>%s</b>? Para confirmar, presione eliminar. Para retornar al listado general de usuarios activos, presione cancelar.",
     "delete-success-title" => "¡Usuario eliminado satisfactoriamente!",
-    "delete-success-message" => "El usuario seleccionado se eliminó satisfactoriamente. Para continuar, presione el botón en la parte inferior de este mensaje.",
+    "delete-success-message" => "El usuario seleccionado se eliminó satisfactoriamente. Para continuar, presiona el botón en la parte inferior de este mensaje.",
     //[info]------------------------------------------------------------------------------------------------------------
     "users-info" => "Un usuario es una persona o entidad que interactúa con un sistema o plataforma para realizar actividades específicas.",
 ];
