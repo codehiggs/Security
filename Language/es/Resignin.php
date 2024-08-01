@@ -2,11 +2,7 @@
 /*
  * **
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
- *  ** █ ░FRAMEWORK                                  2024-07-24 10:53:12
-=======
- *  ** █ ░FRAMEWORK                                  2024-07-24 23:19:27
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
+ *  ** █ ░FRAMEWORK                                  2024-07-31 15:30:18
  *  ** █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Account\Views\Processes\Creator\deny.php]
  *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  *  ** █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
@@ -33,17 +29,9 @@
  */
 
 return [
-<<<<<<< HEAD
-    "deny-message" => "Hemos recibido tu intento de restablecimiento de contraseña y/o acceso. Lamentablemente, el código proporcionado es incorrecto o ha expirado. Por razones de seguridad, los códigos de restablecimiento de contraseña tienen una duración limitada. Asegúrate de utilizar el código dentro del plazo especificado. Si este problema persiste o si crees que has recibido este mensaje por error, te recomendamos solicitar un nuevo código de restablecimiento desde la opción 'Olvidé mi contraseña' en la pantalla de inicio de sesión. Para cualquier pregunta o asistencia adicional, no dudes en ponerte en contacto con nuestro equipo de soporte. ¡Gracias por tu comprensión!",
-=======
-    "deny-message" => "Hemos recibido tu intento de restablecimiento de contraseña y/o acceso. Lamentablemente, el código proporcionado es incorrecto o ha expirado. Por razones de seguridad, los códigos de restablecimiento de contraseña tienen una duración limitada. Por favor, asegúrate de utilizar el código dentro del plazo especificado. Si este problema persiste o crees que has recibido este mensaje por error, te recomendamos solicitar un nuevo código de restablecimiento desde la opción "Olvidé mi contraseña" en la pantalla de inicio de sesión. Para cualquier pregunta o asistencia adicional, no dudes en ponerte en contacto con nuestro equipo de soporte. ¡Gracias por tu comprensión!.",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
+    "deny-message" => "Hemos recibido tu intento de restablecimiento de contraseña y/o acceso. Lamentablemente, el código proporcionado es incorrecto o ha expirado. Por razones de seguridad, los códigos de restablecimiento de contraseña tienen una duración limitada. Asegúrate de utilizar el código dentro del plazo especificado. Si este problema persiste o si crees que has recibido este mensaje por error, te recomendamos solicitar un nuevo código de restablecimiento. Puedes hacerlo desde la opción 'Olvidé mi contraseña' en la pantalla de inicio de sesión. Para cualquier pregunta o asistencia adicional, no dudes en ponerte en contacto con nuestro equipo de soporte. ¡Gracias por tu comprensión!",
     "deny-title" => "Código de seguridad no valido",
     "success-title" => "Código de seguridad valido",
-<<<<<<< HEAD
     "success-message" => "Te informamos con gusto que el código de restablecimiento de contraseña que proporcionaste ha sido verificado con éxito. Ahora tienes acceso nuevamente a tu cuenta. Para mantener la seguridad de tu cuenta, te recomendamos cambiar tu contraseña inmediatamente. Este código de acceso era de un solo uso, y en caso de no actualizar tu contraseña, deberás repetir el proceso de restablecimiento si necesitas acceder nuevamente. Para cambiar tu contraseña, inicia sesión en tu cuenta y dirígete a la configuración de la cuenta. Si tienes alguna dificultad o preguntas, no dudes en ponerte en contacto con nuestro equipo de soporte. ¡Gracias por tu comprensión!",
-=======
-    "success-message" => "Te informamos con gusto que el código de restablecimiento de contraseña que proporcionaste ha sido verificado con éxito. Ahora tienes acceso nuevamente a tu cuenta. Para mantener la seguridad de tu cuenta, te recomendamos cambiar tu contraseña inmediatamente. Este código de acceso era de un solo uso y, si no actualizas tu contraseña, deberás repetir el proceso de restablecimiento si necesitas acceder nuevamente. Para cambiar tu contraseña, inicia sesión en tu cuenta y dirígete a la configuración de la cuenta. Si tienes alguna dificultad o preguntas, no dudes en ponerte en contacto con nuestro equipo de soporte. ¡Gracias por tu comprensión!.",
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
 ];
 

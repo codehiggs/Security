@@ -2,11 +2,7 @@
 /*
  * **
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
- *  ** █ ░FRAMEWORK                                  2024-07-29 09:04:16
-=======
- *  ** █ ░FRAMEWORK                                  2024-07-24 23:19:27
->>>>>>> af7ac442714c3eded0b37b9e51c0ead15ce459f7
+ *  ** █ ░FRAMEWORK                                  2024-07-31 15:57:16
  *  ** █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Account\Views\Processes\Creator\deny.php]
  *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  *  ** █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
@@ -36,6 +32,6 @@ return [
     "success-title" => "Registro exitoso!",
     "success-message" => "¡Hola @%s! Te damos la bienvenida. Tu registro ha sido completado con éxito. Ahora puedes iniciar sesión utilizando tu dirección de correo electrónico y la contraseña que has establecido. Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de soporte. ¡Gracias por registrarte con nosotros!",
     "user-register-disabled-title" => "Registro de usuario deshabilitado",
-    "user-register-disabled" => "Debido a actualizaciones y mejoras en nuestros protocolos de seguridad y gestión de usuarios, el proceso de auto-registro en nuestra plataforma ha sido temporalmente deshabilitado por los administradores. Estamos comprometidos con la seguridad y la experiencia óptima de todos nuestros usuarios, y por ello hemos tomado esta medida como parte de nuestros esfuerzos continuos de mejora. Durante este período, cualquier nuevo usuario que desee registrarse deberá ponerse en contacto directo con nuestro equipo de soporte para que podamos asistirle personalmente en el proceso de creación de su cuenta. Agradecemos su comprensión y paciencia mientras trabajamos para mantener y mejorar la calidad y seguridad de nuestro servicio. ",
+    "user-register-disabled" => "Debido a actualizaciones y mejoras en nuestros protocolos de seguridad y gestión de usuarios, el proceso de auto registro en nuestra plataforma ha sido temporalmente deshabilitado por los administradores. Estamos comprometidos con la seguridad y la experiencia óptima de todos nuestros usuarios, y por ello hemos tomado esta medida como parte de nuestros esfuerzos continuos de mejora. Durante este período, cualquier nuevo usuario que desee registrarse deberá ponerse en contacto directo con nuestro equipo de soporte para que podamos asistirle personalmente en el proceso de creación de su cuenta. Agradecemos su comprensión y paciencia mientras trabajamos para mantener y mejorar la calidad y seguridad de nuestro servicio. ",
 ];
 ?>
