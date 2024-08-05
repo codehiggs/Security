@@ -32,7 +32,7 @@ $dates = service('Dates');
 $strings = service('strings');
 $authentication = service('authentication');
 //[Models]-----------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 $model = model("App\Modules\Security\Models\Security_Users");
 $d = array(
     "user" => $f->get_Value("user"),

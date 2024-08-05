@@ -1,7 +1,7 @@
 <?php
 
 $bootstrap = service("bootstrap");
-$f = service("forms", array("lang" => "Roles."));
+$f = service("forms", array("lang" => "Security_Roles."));
 $model = model("App\Modules\Security\Models\Security_Roles");
 $d = array(
     "rol" => $f->get_Value("rol"),

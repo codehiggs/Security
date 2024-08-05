@@ -35,7 +35,7 @@ $authentication = service('authentication');
 //$model = model("App\Modules\Security\Models\Security_Users");
 $mfields = model("App\Modules\Security\Models\Security_Users_Fields");
 //[Process]-----------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 $d = array(
     "user" => $f->get_Value("user"),
     "author" => safe_get_user(),
