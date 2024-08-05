@@ -26,7 +26,7 @@
  * █ ---------------------------------------------------------------------------------------------------------------------
  **/
 $bootstrap = service('Bootstrap');
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 //$model = model("App\Modules\Security\Models\Security_Users");
 $pkey = $f->get_Value("pkey");
 $row = $model->withDeleted()->find($pkey);

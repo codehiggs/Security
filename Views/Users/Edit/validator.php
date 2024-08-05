@@ -26,7 +26,7 @@
  * █ ---------------------------------------------------------------------------------------------------------------------
  **/
 $bootstrap = service('bootstrap');
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 //[Request]-----------------------------------------------------------------------------
 $f->set_ValidationRule("user", "trim|required");
 $f->set_ValidationRule("author", "trim|required");

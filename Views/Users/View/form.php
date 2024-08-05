@@ -31,7 +31,7 @@ $bootstrap = service('Bootstrap');
 $dates = service('Dates');
 $strings = service('strings');
 $authentication = service('authentication');
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 //[request]-------------------------------------------------------------------------------------------------------------
 $row = $model->where('user', $oid)->first();
 $mfields = model("App\Modules\Security\Models\Security_Users_Fields");

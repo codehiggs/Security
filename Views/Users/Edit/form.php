@@ -31,7 +31,7 @@ $bootstrap = service('bootstrap');
 $dates = service('dates');
 $strings = service('strings');
 $authentication = service('authentication');
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 //[models]--------------------------------------------------------------------------------------------------------------
 //$model = model("App\Modules\Security\Models\Security_Users");
 $musers = model("App\Modules\Security\Models\Security_Users");

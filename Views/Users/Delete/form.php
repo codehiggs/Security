@@ -33,7 +33,7 @@ $mfields = model("App\Modules\Security\Models\Security_Users_Fields");
 //[vars]----------------------------------------------------------------------------------------------------------------
 $profile = $mfields->get_Profile($oid);
 $name = $profile['name'];
-$f = service("forms", array("lang" => "Users."));
+$f = service("forms", array("lang" => "Security_Users."));
 $r = $model->find($oid);
 $message = sprintf(lang("Security.users-delete-message"), $name);
 $back = "/security/users/list/" . lpk();
